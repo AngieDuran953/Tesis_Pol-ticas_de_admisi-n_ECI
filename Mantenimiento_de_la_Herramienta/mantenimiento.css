@@ -1,0 +1,28 @@
+header h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+.maintenance-tasks {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.task {
+    flex-basis: 20%;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task img {
+    width: 100%; /* Ajusta el ancho */
+    height: auto; /* Mantiene la proporción */
+    max-width: 200px; /* Ajusta el ancho máximo */
+    max-height: 200px; /* Ajusta la altura máxima */
+    object-fit: cover; /* Asegura que la imagen cubra el área sin distorsionarse */
+}

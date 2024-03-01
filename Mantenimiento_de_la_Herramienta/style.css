@@ -1,0 +1,80 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5dc;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+nav ul li img {
+    width: 200px; /* Adjust as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav ul li span {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+nav ul li a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: black; /* Cambia el color del texto a negro */
+}
+nav ul li a:hover {
+    text-decoration: underline; /* Opcional: subraya el enlace al pasar el mouse */
+}
+
+.toggle {
+    display: none;
+}
+
+.toggle + label {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.content {
+    display: none;
+    margin-top: 10px;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.toggle + label:hover {
+    background-color: #ddd;
+}
+
+.toggle:checked + label + .content {
+    display: block;
+}

@@ -1,0 +1,32 @@
+header h1 {
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.images img {
+    margin: 0 10px;
+    width: 150px; /* Ancho para las imágenes normales */
+    height: auto;
+}
+
+.central-image {
+    width: 1000px; /* Ancho más grande para la imagen central */
+}
