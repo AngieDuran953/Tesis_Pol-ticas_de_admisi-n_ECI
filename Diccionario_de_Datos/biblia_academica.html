@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+</head>
+<body>
+    <div class="data-page-container">
+        <h1>Biblia Académica</h1>
+        <div class="search-container">
+            <select id="searchInput" style="width: 50%">
+                <!-- Las opciones se llenarán dinámicamente con JavaScript -->
+            </select>
+        </div>
+        <table id="data-table">
+                        <thead>
+                <tr>
+                    <th>Nombre de la Columna</th>
+                    <th>Tipo de Dato</th>
+                    <th>Descripción</th>
+                    <th>Formato</th>
+                </tr>
+            </thead>
+            <tbody>
+              <tr>
+                  <td>Ciclo Lectivo</td>
+                  <td>Numérico</td>
+                  <td>Año y semestre académico</td>
+                  <td>Formato AAAAS (Ej: 1910)</td>
+              </tr>
+              <tr>
+                  <td>Organización Académica Curso</td>
+                  <td>Texto</td>
+                  <td>Código de la organización académica que ofrece el curso</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Nro Catalogo</td>
+                  <td>Texto</td>
+                  <td>Número de catálogo del curso</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Créd Curso</td>
+                  <td>Numérico</td>
+                  <td>Número de créditos del curso</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Estado del Curso</td>
+                  <td>Texto</td>
+                  <td>Estado actual del curso</td>
+                  <td>(ej. Inscrita, Cancelada)</td>
+              </tr>
+              <tr>
+                  <td>Id Estudiante</td>
+                  <td>Numérico</td>
+                  <td>Identificación numérica del estudiante</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Nombres y Apellidos</td>
+                  <td>Texto</td>
+                  <td>Nombres y apellidos completos del estudiante</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Grado Académico Unificado</td>
+                  <td>Texto</td>
+                  <td>Grado académico del programa</td>
+                  <td>(ej. Pregrado, Posgrado)</td>
+              </tr>
+              <tr>
+                  <td>Programa Académico Unificado</td>
+                  <td>Texto</td>
+                  <td>Nombre unificado del programa académico</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Definitiva</td>
+                  <td>Numérico</td>
+                  <td>Calificación definitiva del estudiante</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Tipo documento</td>
+                  <td>Texto</td>
+                  <td>Tipo de documento de identidad del estudiante</td>
+                  <td>(ej. CC, TI)</td>
+              </tr>
+              <tr>
+                  <td>documento</td>
+                  <td>Numérico</td>
+                  <td>Número de documento de identidad del estudiante</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>PCN</td>
+                  <td>Numérico</td>
+                  <td>Puntaje de ciencias naturales en el exámen Saber11</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>PLC</td>
+                  <td>Numérico</td>
+                  <td>Puntaje de lectura crítica en el exámen Saber11</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>PMA</td>
+                  <td>Numérico</td>
+                  <td>Puntaje de matemáticas en el exámen Saber11</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>PSC</td>
+                  <td>Numérico</td>
+                  <td>Puntaje de ciencias sociales en el exámen Saber11</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>estrato</td>
+                  <td>Numérico</td>
+                  <td>Estrato socioeconómico del estudiante</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>val_matricula</td>
+                  <td>Numérico</td>
+                  <td>Valor de la matrícula del estudiante</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Ciudad</td>
+                  <td>Texto</td>
+                  <td>Ciudad de residencia del estudiante</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>Departamento</td>
+                  <td>Texto</td>
+                  <td>Departamento de residencia del estudiante</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>calendario colegio</td>
+                  <td>Texto</td>
+                  <td>Tipo de calendario académico del colegio</td>
+                  <td>(A o B)</td>
+              </tr>
+              <tr>
+                  <td>periodo ingreso</td>
+                  <td>Texto</td>
+                  <td>Periodo de ingreso del estudiante a la universidad</td>
+                  <td>Formato AAAA-S, donde 'AAAA' es el año y 'S' el semestre (1 o 2). Ejemplos: 2019-1, 2020-2</td>
+              </tr>
+              <tr>
+                  <td>exámen de conocimiento física</td>
+                  <td>Numérico</td>
+                  <td>Puntuación del estudiante en el examen de conocimiento de física</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>exámen de conocimiento química</td>
+                  <td>Numérico</td>
+                  <td>Puntuación del estudiante en el examen de conocimiento de química</td>
+                  <td></td>
+              </tr>
+              <tr>
+                  <td>exámen de conocimiento matemáticas</td>
+                  <td>Numérico</td>
+                  <td>Puntuación del estudiante en el examen de conocimiento de matemáticas</td>
+                  <td></td>
+              </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

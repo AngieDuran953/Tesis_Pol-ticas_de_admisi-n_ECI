@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+</head>
+<body>
+    <div class="data-page-container">
+        <h1>Matriculados en otras universidades</h1>
+        <div class="search-container">
+            <select id="searchInput" style="width: 50%">
+                <!-- Las opciones se llenarán dinámicamente con JavaScript -->
+            </select>
+        </div>
+        <table id="data-table">
+                        <thead>
+                <tr>
+                    <th>Nombre de la Columna</th>
+                    <th>Tipo de Dato</th>
+                    <th>Descripción</th>
+                    <th>Formato</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>INSTITUCIÓN DE EDUCACIÓN SUPERIOR (IES)</td>
+                    <td>Texto</td>
+                    <td>Nombre de la institución educativa</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>PRINCIPAL O SECCIONAL</td>
+                    <td>Texto</td>
+                    <td>Indica si la sede es principal o seccional</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>SECTOR IES</td>
+                    <td>Texto</td>
+                    <td>Sector de la IES</td>
+                    <td>público / privado</td>
+                </tr>
+                <tr>
+                    <td>IES ACREDITADA</td>
+                    <td>Texto</td>
+                    <td>Indica si la IES está acreditada</td>
+                    <td>Sí/No</td>
+                </tr>
+                <tr>
+                    <td>CARACTER IES</td>
+                    <td>Texto</td>
+                    <td>Carácter de la IES</td>
+                    <td>(universidad, instituto, etc.)</td>
+                </tr>
+                <tr>
+                    <td>DEPARTAMENTO DE DOMICILIO DE LA IES</td>
+                    <td>Texto</td>
+                    <td>Departamento de domicilio de la IES</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MUNICIPIO DE DOMICILIO DE LA IES</td>
+                    <td>Texto</td>
+                    <td>Municipio de domicilio de la IES</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>PROGRAMA ACADÉMICO</td>
+                    <td>Texto</td>
+                    <td>Nombre del programa académico</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>PROGRAMA ACREDITADO</td>
+                    <td>Texto</td>
+                    <td>Indica si el programa está acreditado</td>
+                    <td>Sí/No</td>
+                </tr>
+                <tr>
+                    <td>NIVEL ACADÉMICO</td>
+                    <td>Texto</td>
+                    <td>Nivel académico del programa</td>
+                    <td>(ej. pregrado, posgrado)</td>
+                </tr>
+                <tr>
+                    <td>NIVEL DE FORMACIÓN</td>
+                    <td>Texto</td>
+                    <td>Nivel de formación ofrecido por el programa</td>
+                    <td>(ej. universitaria, doctorado)</td>
+                </tr>
+                <tr>
+                    <td>METODOLOGÍA</td>
+                    <td>Texto</td>
+                    <td>Metodología de enseñanza</td>
+                    <td>(ej. presencial, virtual)</td>
+                </tr>
+                <tr>
+                    <td>ÁREA DE CONOCIMIENTO</td>
+                    <td>Texto</td>
+                    <td>Área de conocimiento del programa</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>NÚCLEO BÁSICO DEL CONOCIMIENTO (NBC)</td>
+                    <td>Texto</td>
+                    <td>Núcleo básico del conocimiento asociado al programa</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>DESC CINE CAMPO AMPLIO</td>
+                    <td>Texto</td>
+                    <td>Descripción del campo amplio según la clasificación CINE</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>DEPARTAMENTO DE OFERTA DEL PROGRAMA</td>
+                    <td>Texto</td>
+                    <td>Departamento donde se ofrece el programa</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>MUNICIPIO DE OFERTA DEL PROGRAMA</td>
+                    <td>Texto</td>
+                    <td>Municipio donde se ofrece el programa</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>SEXO</td>
+                    <td>Texto</td>
+                    <td>Sexo del estudiante</td>
+                    <td>Hombre/Mujer</td>
+                </tr>
+                <tr>
+                    <td>AÑO</td>
+                    <td>Numérico</td>
+                    <td>Año del dato registrado</td>
+                    <td>Formato AAAA</td>
+                </tr>
+                <tr>
+                    <td>SEMESTRE</td>
+                    <td>Numérico</td>
+                    <td>Semestre del dato registrado</td>
+                    <td>1 o 2</td>
+                </tr>
+                <tr>
+                    <td>CANTIDAD</td>
+                    <td>Numérico</td>
+                    <td>Cantidad de estudiantes</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Política de admisión</td>
+                    <td>Texto</td>
+                    <td>Tipo de política de admisión aplicada</td>
+                    <td>Ej. Examen de admisión propio</td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

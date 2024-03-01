@@ -1,0 +1,89 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff4c1; /* Ejemplo de un color de fondo llamativo */
+    color: #333; /* Color del texto */
+}
+
+.welcome-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.welcome-container p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+
+button {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transform: translateY(-2px); /* Se eleva ligeramente */
+}
+
+.gif-container {
+    margin-top: 20px;
+    width: 30%; /* Tamaño del GIF */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gif-container img {
+    width: 100%; /* Hace que el GIF se ajuste al contenedor */
+}
+
+/* Estilos comunes para las páginas de tablas de datos */
+.data-page-container {
+    width: 80%;
+    margin: auto;
+    background-color: #fff; /* O cualquier otro color que prefieras */
+}
+
+.data-page-container h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
