@@ -25,6 +25,3 @@ Para utilizar esta guía, simplemente navegue a través de las diferentes seccio
 ## Contribuciones
 Las contribuciones a esta guía son bienvenidas. Si desea mejorar la documentación o agregar secciones adicionales, por favor, considere enviar un pull request o ponerse en contacto con los autores.
 
-## Licencia
-Este proyecto está licenciado bajo [INSERTE EL TIPO DE LICENCIA AQUÍ]. Por favor, consulte el archivo LICENSE para más detalles.
-
