@@ -55,6 +55,3 @@ Asegúrate de tener Python 3.6 o superior instalado en tu sistema.
 ## Contribuciones
 Las contribuciones son bienvenidas. Si tienes ideas para mejorar la aplicación o añadir nuevas características, no dudes en crear un pull request.
 
-## Licencia
-Este proyecto está bajo [INSERTE EL TIPO DE LICENCIA AQUÍ] - vea el archivo LICENSE.md para más detalles.
-
