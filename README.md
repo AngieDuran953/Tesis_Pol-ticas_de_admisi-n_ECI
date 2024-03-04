@@ -6,6 +6,8 @@ Este repositorio es una colección comprensiva de herramientas y guías de usuar
 ## Proyectos Incluidos
 - **Guías de Usuario para Herramientas de Análisis de Datos**: Proporcionan instrucciones detalladas y soporte para usuarios finales en el uso eficiente de diversas herramientas de análisis de datos.
 - **Manual de Administración y Mantenimiento para PowerBI**: Ofrece procedimientos de mantenimiento y actualización de datos para administradores de PowerBI.
+- **Herramienta para limpiar archivos Excel**: Ofrece limpieza y soporte en la tarea de preparación de datos, facilitando la estandarización y corrección de conjuntos de datos en formatos Excel. Esta herramienta automatiza el proceso de identificar y corregir errores comunes, como formatos inconsistentes, valores faltantes o incorrectos, y problemas de codificación, asegurando así que los datos estén listos para análisis y visualizaciones precisas.
+- **Diccionario de Datos**: Proporciona una descripción detallada y estructurada de cada columna necesaria para el tablero de PowerBI, incluyendo el nombre de la columna, tipo de dato (numérico, texto, fecha, etc.), descripción del dato que contiene, y cualquier formato o restricción específica aplicable.
 - **Mixtral Kit**: Una versión personalizada de Mixtral integrada.
 
 ## Tecnologías Utilizadas
